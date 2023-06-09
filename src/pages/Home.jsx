@@ -22,13 +22,13 @@ function Home() {
     <>
 
 <section className="
-      text-gray-800 w-full flex
-        items-center justify-center mt-20"
+      text-gray-800 w-full flex dark:bg-hero-bg
+        items-center justify-center"
       >
         <div className="
           container flex flex-col justify-center p-6
           sm:py-16 lg:py-24 lg:px-14 lg:flex-row
-          lg:justify-between py-12
+          lg:justify-between pb-12 pt-20
           xl:ml-5 dark:bg-hero-bg "
         >
           <div className="
@@ -36,32 +36,34 @@ function Home() {
             text-center rounded-sm
             lg:max-w-md xl:max-w-lg lg:text-left"
           >
-            <h1 className="text-5xl font-bold leading-none sm:text-6xl">
-              Aberdeen
+            <p className="mb-2 text-lg sm:mb-2 font-roboto">
+              Hay, I am Fatu
+            </p>
+            <h1 className="text-5xl font-bold leading-none sm:text-6xl text-purple-header">
+              HEALTH AND
               {' '}
               <br />
-              <span className="text-yellow-500"> Watta </span>
-              Taxi
+              <span className="text-purple"> POLICY </span>
+              PROFESSIONAL
             </h1>
-            <p className="mt-6 mb-8 text-lg sm:mb-12">
-              More than just a boat ride. Experience the fastest and most affordable water taxi service
-              from Freetown to Lungi and beyond! Discover all our routes and services and book your
-              tickets easy through our mobile application.
+            <p className="mt-6 mb-8 text-lg sm:mb-12 text-purple-body">
+              currently works as a Project Manager and has 2+ years of full-time experience working on city-wide
+              initiatives that promote the wellbeing of New Yorkers.
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <a rel="noopener noreferrer" href="#"
                 className="px-8 py-3 text-lg font-semibold rounded
-                dark:bg-yellow-500 dark:text-gray-900
+                dark:bg-purple dark:text-white
                 transform hover:scale-110 transition-transform duration-300"
               >
-                Get Mobile App
+                Get In Touch
               </a>
 
             </div>
           </div>
           <div className="
             flex items-center justify-center p-6 mt-8
-            lg:mt-0 h-5/6 sm:h-80 lg:h-96
+            lg:mt-0 h-3/4 sm:h-80 lg:h-96
             xl:h-112 2xl:h-128"
           >
             <img

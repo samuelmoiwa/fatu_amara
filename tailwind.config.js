@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       colors: {
         'hero-bg': '#F5FCFF',
+        'purple': '#5E3BEE',
+        'purple-header': '#282938',
+        'purple-body': '#1C1E53',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],

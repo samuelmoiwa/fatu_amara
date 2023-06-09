@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/fatu_amara/static/css/main.65f9b44c.css",
-    "main.js": "/fatu_amara/static/js/main.4860316d.js",
+    "main.css": "/fatu_amara/static/css/main.00640f34.css",
+    "main.js": "/fatu_amara/static/js/main.42dd45bf.js",
+    "static/media/fatu.png": "/fatu_amara/static/media/fatu.e99be8e0522b17a83ccd.png",
     "static/media/logo.png": "/fatu_amara/static/media/logo.a27092fa14f04ec1c189.png",
     "index.html": "/fatu_amara/index.html",
-    "main.65f9b44c.css.map": "/fatu_amara/static/css/main.65f9b44c.css.map",
-    "main.4860316d.js.map": "/fatu_amara/static/js/main.4860316d.js.map"
+    "main.00640f34.css.map": "/fatu_amara/static/css/main.00640f34.css.map",
+    "main.42dd45bf.js.map": "/fatu_amara/static/js/main.42dd45bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.65f9b44c.css",
-    "static/js/main.4860316d.js"
+    "static/css/main.00640f34.css",
+    "static/js/main.42dd45bf.js"
   ]
 }

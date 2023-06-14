@@ -33,7 +33,7 @@ const Card = ({ icon, heading, description }) => {
 
   return (
     <div
-      className="w-96 h-64 max-w-md p-6 rounded-lg shadow-md bg-white
+      className="w-auto sm:w-96 h-64 max-w-md p-6 rounded-lg shadow-md bg-white
       border-b-4 hover:border-purple
       cursor-pointer transition duration-300 ease-in-out"
       data-aos="fade-up"

@@ -17,7 +17,7 @@ const cardData = [
     description: `Completed 1700 hours of community service to address public health at the height of COVID-19 pandemic.`,
   },
   {
-    id: 2,
+    id: 3,
     icon: medalIcon,
     heading: `Jeannette K. Watson Fellow Fellowship`,
     description: `1 of 15 awarded a highly selective fellowship that funds internships in NYC and abroad.`,
@@ -52,9 +52,9 @@ const Card = ({ icon, heading, description }) => {
 
 const AwardsCard = () => {
   return (
-    <div className="flex flex-wrap -mx-4 w-full justify-center gap-4">
+    <div className="flex flex-wrap -mx-4 w-full justify-center">
       {cardData.map((card) => (
-        <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4 gap-4" key={card.id}>
+        <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4" key={card.id}>
           <Card
             icon={card.icon}
             heading={card.heading}

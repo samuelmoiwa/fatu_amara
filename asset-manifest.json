@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/fatu_amara/static/css/main.b589774d.css",
-    "main.js": "/fatu_amara/static/js/main.ec9ebb22.js",
+    "main.css": "/fatu_amara/static/css/main.ea25c7b3.css",
+    "main.js": "/fatu_amara/static/js/main.b4ba4647.js",
     "static/media/fatu.png": "/fatu_amara/static/media/fatu.e99be8e0522b17a83ccd.png",
-    "static/media/fatu_about_me.png": "/fatu_amara/static/media/fatu_about_me.dc70ca08ded396c9866d.png",
+    "static/media/fatu_about_me.png": "/fatu_amara/static/media/fatu_about_me.d463955d0ed3c47abbb6.png",
     "static/media/logo.png": "/fatu_amara/static/media/logo.a27092fa14f04ec1c189.png",
     "static/media/medal.png": "/fatu_amara/static/media/medal.56dfbb6ce887a3c1d64a.png",
     "index.html": "/fatu_amara/index.html",
-    "main.b589774d.css.map": "/fatu_amara/static/css/main.b589774d.css.map",
-    "main.ec9ebb22.js.map": "/fatu_amara/static/js/main.ec9ebb22.js.map"
+    "main.ea25c7b3.css.map": "/fatu_amara/static/css/main.ea25c7b3.css.map",
+    "main.b4ba4647.js.map": "/fatu_amara/static/js/main.b4ba4647.js.map"
   },
   "entrypoints": [
-    "static/css/main.b589774d.css",
-    "static/js/main.ec9ebb22.js"
+    "static/css/main.ea25c7b3.css",
+    "static/js/main.b4ba4647.js"
   ]
 }

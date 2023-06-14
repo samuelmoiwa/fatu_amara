@@ -71,12 +71,14 @@ function NavBar() {
               {navigation.map((item, index) => {
                 let aosAnimation = ""; // Default empty animation
 
-                // Apply different animations based on item position
-                if (index === Math.floor(navigation.length / 2)) {
-                  aosAnimation = "zoom-in"; // Apply 'fade-up' animation to middle item
-                } else if (index < Math.floor(navigation.length / 2)) {
+                 // Apply different animations based on item position
+                if (index === 1 || index === 2) {
+                  aosAnimation = "zoom-in"; // Apply 'zoom-in' animation to second and third items
+                }
+                if (index === 0){
                   aosAnimation = "fade-right"; // Apply 'fade-right' animation to items on the left
-                } else {
+                }
+                if (index === 3){
                   aosAnimation = "fade-left"; // Apply 'fade-left' animation to items on the right
                 }
 
@@ -106,12 +108,14 @@ function NavBar() {
             {navigation.map((item, index) => {
               let aosAnimation = ""; // Default empty animation
 
-              // Apply different animations based on item position
-              if (index === Math.floor(navigation.length / 2)) {
-                aosAnimation = "zoom-in"; // Apply 'fade-up' animation to middle item
-              } else if (index < Math.floor(navigation.length / 2)) {
+               // Apply different animations based on item position
+              if (index === 1 || index === 2) {
+                aosAnimation = "zoom-in"; // Apply 'zoom-in' animation to second and third items
+              }
+              if (index === 0){
                 aosAnimation = "fade-right"; // Apply 'fade-right' animation to items on the left
-              } else {
+              }
+              if (index === 3){
                 aosAnimation = "fade-left"; // Apply 'fade-left' animation to items on the right
               }
 

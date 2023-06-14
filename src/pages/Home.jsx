@@ -1,15 +1,29 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect } from 'react';
+import Lottie from 'react-lottie'
 import fatu from '../images/fatu.png'
 import fatu_about from '../images/fatu_about_me.png'
 import AwardsCard from '../components/AwardsCard';
+import Volunteering from '../components/Volunteering';
+import partnership from '../images/partnership.json'
+import insta from '../images/Instagram.png'
+import linkedIn from '../images/linkedin.png'
 
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Home() {
+
+  const animationOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: partnership,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
 
 
   useEffect(() => {
@@ -95,7 +109,7 @@ function Home() {
           text-purple-header my-6'">
               About me
             </p>
-            <div className="w-16 h-1 bg-blue-800 mt-2" data-aos="fade-right"> </div>
+            <div className="w-16 h-1 bg-purple mt-2" data-aos="fade-right"> </div>
           </div>
           <div class="w-full mb-4">
             <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -161,6 +175,67 @@ function Home() {
               <img class="w-full rounded shadow-md sm:rounded-none sm:shadow-none"
                 src={fatu_about} alt="image"
               />
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section className='flex flex-col justify-center items-center w-full py-6 sm:px-2 bg-gray-100'>
+        <h2 className='text-2xl text-center font-bold leading-none sm:text-3xl
+          text-purple-header my-6'
+          data-aos="fade-right"
+        >
+          VOLUNTEERING
+        </h2>
+        < Volunteering />
+      </section>
+
+      <section class="bg-white border-b py-8" id='about'>
+        <div class="container max-w-5xl mx-auto m-8">
+
+          <div class="flex flex-wrap flex-col sm:flex-row" data-aos="fade-up">
+            <div class="w-full sm:w-1/2 p-6">
+              <div class="text-gray-600 mb-8 text-justify">
+                <h1 className="text-5xl font-bold leading-none sm:text-5xl text-purple-header">
+                READY
+                {' '}
+                <br />
+                <span className="text-purple"> FOR </span>
+                PARTNERSHIP?
+              </h1>
+              <p className="mt-6 mb-8 text-lg sm:mb-12 text-purple-body">
+                Email to partner on consulting projects or other partnerships including speaking engagement,
+                community projects, research projects, etc.
+              </p>
+              </div>
+
+              <div className="flex space-y-4 sm:items-center
+                sm:flex-row
+                sm:space-y-0 sm:space-x-4 lg:justify-start"
+              >
+                <a rel="noopener noreferrer" href="#"
+                  className="px-4 py-2 flex justify-center
+                  transform hover:scale-110 transition-transform duration-300"
+                >
+                  <img class="w-10 rounded shadow-md sm:rounded-none sm:shadow-none"
+                    src={insta} alt="image"
+                  />
+                </a>
+
+                <a rel="noopener noreferrer" href="#"
+                  className="px-4 py-2 flex justify-center
+                  transform hover:scale-110 transition-transform duration-300"
+                >
+                  <img class="w-10 rounded shadow-md sm:rounded-none sm:shadow-none"
+                    src={linkedIn} alt="image"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="w-full sm:w-1/2 p-6 sm:order-first">
+              <Lottie options={animationOptions} height={400} width={400} />
             </div>
           </div>
 

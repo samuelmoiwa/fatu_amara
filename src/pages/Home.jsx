@@ -76,7 +76,7 @@ function Home() {
         </div>
       </section>
 
-      <section className='flex flex-col justify-center w-full py-6 sm:px-2 bg-white'>
+      <section className='flex flex-col justify-center items-center w-full py-6 sm:px-2 bg-white'>
         <h2 className='text-2xl text-center font-bold leading-none sm:text-3xl
           text-purple-header my-6'
           data-aos="fade-right"

@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect } from 'react';
 import fatu from '../images/fatu.png'
+import AwardsCard from '../components/AwardsCard';
 
 
 import AOS from 'aos';
@@ -21,7 +22,7 @@ function Home() {
   return (
     <>
 
-<section className="
+      <section className="
       text-gray-800 w-full flex dark:bg-hero-bg
         items-center justify-center"
       >
@@ -73,6 +74,16 @@ function Home() {
                 />
           </div>
         </div>
+      </section>
+
+      <section className='flex flex-col justify-center w-full py-6 sm:px-2 bg-white'>
+        <h2 className='text-2xl text-center font-bold leading-none sm:text-3xl
+          text-purple-header my-6'
+          data-aos="fade-right"
+        >
+          AWARDS & FELLOWSHIPS
+        </h2>
+        < AwardsCard />
       </section>
 
       <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-20">

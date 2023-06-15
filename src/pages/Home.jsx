@@ -9,6 +9,7 @@ import Volunteering from '../components/Volunteering';
 import partnership from '../images/partnership.json'
 import insta from '../images/Instagram.png'
 import linkedIn from '../images/linkedin.png'
+import ContactUs from '../components/ContactUs';
 
 
 import AOS from 'aos';
@@ -172,7 +173,7 @@ function Home() {
               </div>
             </div>
             <div class="w-full sm:w-1/2 p-6 sm:order-first">
-              <img class="w-full rounded shadow-md sm:rounded-none sm:shadow-none"
+              <img class="w-full rounded"
                 src={fatu_about} alt="image"
               />
             </div>
@@ -181,7 +182,7 @@ function Home() {
         </div>
       </section>
 
-      <section className='flex flex-col justify-center items-center w-full py-6 sm:px-2 bg-gray-100'>
+      <section className='flex flex-col sm:justify-center justify-center sm:items-center items-center w-full py-6 sm:px-2 bg-gray-100'>
         <h2 className='text-2xl text-center font-bold leading-none sm:text-3xl
           text-purple-header my-6'
           data-aos="fade-right"
@@ -197,7 +198,7 @@ function Home() {
           <div class="flex flex-wrap flex-col sm:flex-row" data-aos="fade-up">
             <div class="w-full sm:w-1/2 p-6">
               <div class="text-gray-600 mb-8 text-justify">
-                <h1 className="text-5xl font-bold leading-none sm:text-5xl text-purple-header">
+                <h1 className="text-4xl font-bold leading-none sm:text-4xl text-purple-header">
                 READY
                 {' '}
                 <br />
@@ -211,14 +212,14 @@ function Home() {
               </div>
 
               <div className="flex space-y-4 sm:items-center
-                sm:flex-row
-                sm:space-y-0 sm:space-x-4 lg:justify-start"
+                sm:flex-row sm:space-y-0
+                sm:space-x-4 lg:justify-start md:items-center"
               >
                 <a rel="noopener noreferrer" href="#"
                   className="px-4 py-2 flex justify-center
                   transform hover:scale-110 transition-transform duration-300"
                 >
-                  <img class="w-10 rounded shadow-md sm:rounded-none sm:shadow-none"
+                  <img class="w-14 h-14"
                     src={insta} alt="image"
                   />
                 </a>
@@ -227,7 +228,7 @@ function Home() {
                   className="px-4 py-2 flex justify-center
                   transform hover:scale-110 transition-transform duration-300"
                 >
-                  <img class="w-10 rounded shadow-md sm:rounded-none sm:shadow-none"
+                  <img class="w-14 h-14 "
                     src={linkedIn} alt="image"
                   />
                 </a>
@@ -235,11 +236,15 @@ function Home() {
             </div>
 
             <div class="w-full sm:w-1/2 p-6 sm:order-first">
-              <Lottie options={animationOptions} height={400} width={400} />
+              <Lottie options={animationOptions} height={350} width={350} />
             </div>
           </div>
 
         </div>
+      </section>
+
+      <section className='flex flex-col justify-center items-center w-full py-6 sm:px-2 bg-gray-100'>
+        < ContactUs />
       </section>
 
       <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-20">

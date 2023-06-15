@@ -57,7 +57,7 @@ function Home() {
             <p className="mb-2 text-lg sm:mb-2 font-roboto">
               Hay, I am Fatu
             </p>
-            <h1 className="text-5xl font-bold leading-none sm:text-5xl text-purple-header">
+            <h1 className="text-4xl font-bold leading-none sm:text-5xl text-purple-header">
               HEALTH AND
               {' '}
               <br />

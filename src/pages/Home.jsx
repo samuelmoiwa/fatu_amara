@@ -68,7 +68,9 @@ function Home() {
               currently works as a Project Manager and has 2+ years of full-time experience working on city-wide
               initiatives that promote the wellbeing of New Yorkers <span className='text-blue-500'> <a href='#'>...Read More </a> </span>
             </p>
-            <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+            <div className="flex flex-col space-y-4 sm:items-center sm:justify-center
+                            sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start"
+            >
               <a rel="noopener noreferrer" href="#"
                 className="px-8 py-3 text-lg font-semibold rounded
                 dark:bg-purple dark:text-white

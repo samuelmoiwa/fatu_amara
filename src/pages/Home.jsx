@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect } from 'react';
@@ -10,12 +11,17 @@ import partnership from '../images/partnership.json'
 import insta from '../images/Instagram.png'
 import linkedIn from '../images/linkedin.png'
 import ContactUs from '../components/ContactUs';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Home() {
+
+  const navigate = useNavigate;
+  const readMore = navigate('/readMore')
 
   const animationOptions = {
     loop: true,
@@ -68,7 +74,7 @@ function Home() {
               currently works as a Project Manager and has 2+ years of full-time experience working on city-wide
               initiatives that promote the wellbeing of New Yorkers
               <span className='text-blue-500'>
-                <a href='#'>...Read More </a>
+                <Link to={readMore}>...Read More </Link>
               </span>
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center

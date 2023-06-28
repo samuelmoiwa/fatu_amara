@@ -1,9 +1,9 @@
 import React from 'react'
 
-const healthReadmore = () => {
+const HealthReadMore = () => {
   return (
     <div>healthReadmore</div>
   )
 }
 
-export default healthReadmore
+export default HealthReadMore

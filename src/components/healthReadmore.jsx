@@ -2,7 +2,7 @@ import React from 'react'
 
 const HealthReadMore = () => {
   return (
-    <div>healthReadmore</div>
+    <div>Health read more</div>
   )
 }
 

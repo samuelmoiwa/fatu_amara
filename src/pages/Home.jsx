@@ -196,8 +196,8 @@ function Home() {
               <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                 <a
                   rel="noopener noreferrer"
-                  href="#"
-                  className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform hover:scale-110 transition-transform duration-300"
+                  className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white
+                  transform hover:scale-110 transition-transform duration-300 cursor-pointer"
                   onClick={() =>
                     handleLinkClick(
                       "The City University of New York, College of Staten Island (2016 – 2020)",
@@ -210,8 +210,8 @@ function Home() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="#"
-                  className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform hover:scale-110 transition-transform duration-300"
+                  className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform
+                  hover:scale-110 transition-transform duration-300 cursor-pointer"
                   onClick={() =>
                     handleLinkClick("New York City Economic Development Cooperation, New York (2022)",
                     <p> Provide project management on planning and implementation of the NYCEDC Childcare Innovation lab activities
@@ -226,8 +226,8 @@ function Home() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="#"
-                  className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform hover:scale-110 transition-transform duration-300"
+                  className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform
+                  hover:scale-110 transition-transform duration-300 cursor-pointer"
                   onClick={() =>
                     handleLinkClick(
                       "Administration for Children’s Services, New York (2021-2022)",
@@ -254,8 +254,8 @@ function Home() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="#"
-                  className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform hover:scale-110 transition-transform duration-300"
+                  className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform
+                  hover:scale-110 transition-transform duration-300 cursor-pointer"
                   onClick={() =>
                     handleLinkClick(
                       "Los Angeles County Department of Public Health, Carlifornia (2021)",

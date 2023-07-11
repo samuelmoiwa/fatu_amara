@@ -10,6 +10,7 @@ const navigation = [
   { name: "ABOUT", href: "/?section=about", current: false },
   { name: "SERVICES", href: "/?section=services", current: false },
   { name: "PUBLICATIONS", href: "/#", current: false },
+  { name: "CONTACT US", href: "/?section=contact", current: false },
 ];
 
 function NavBar() {

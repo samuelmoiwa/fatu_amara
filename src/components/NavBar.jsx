@@ -6,9 +6,9 @@ import { useState } from "react";
 import AOS from '../components/aosConfig';
 
 const navigation = [
-  { name: "HOME", href: "/", current: true },
-  { name: "ABOUT", href: "/#", current: false },
-  { name: "SERVICES", href: "/#", current: false },
+  { name: "HOME", href: "/?section=home", current: true },
+  { name: "ABOUT", href: "/?section=about", current: false },
+  { name: "SERVICES", href: "/?section=services", current: false },
   { name: "PUBLICATIONS", href: "/#", current: false },
 ];
 

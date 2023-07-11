@@ -11,7 +11,8 @@ import partnership from "../images/partnership.json";
 import insta from "../images/Instagram.png";
 import linkedIn from "../images/linkedin.png";
 import ContactUs from "../components/ContactUs";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -38,6 +39,22 @@ function Popup({ header, description, onClose }) {
 
 
 function Home() {
+  const location = useLocation();
+  useEffect(() => {
+    const searchParams = new URLSearchParams(location.search);
+    const sectionId = searchParams.get('section');
+
+    if (sectionId) {
+      const targetElement = document.getElementById(sectionId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location.search]);
+
+  // const about = '/?section=about';
+
+
   const [showPopup, setShowPopup] = useState(false);
   const [popupContent, setPopupContent] = useState({
     header: "",
@@ -77,7 +94,7 @@ function Home() {
       <section
         className="
       text-gray-800 w-full flex dark:bg-hero-bg
-        items-center justify-center"
+        items-center justify-center" id="home"
       >
         <div
           className="
@@ -317,7 +334,7 @@ function Home() {
         <Volunteering />
       </section>
 
-      <section class="bg-white border-b py-8" id="about">
+      <section class="bg-white border-b py-8" id="services">
         <div class="container max-w-5xl mx-auto m-8">
           <div class="flex flex-wrap flex-col sm:flex-row" data-aos="fade-up">
             <div class="w-full sm:w-1/2 p-6">

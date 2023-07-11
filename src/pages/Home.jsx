@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Lottie from 'react-lottie'
 import fatu from '../images/fatu.png'
 import fatu_about from '../images/fatu_about_me.png'
@@ -11,17 +11,52 @@ import partnership from '../images/partnership.json'
 import insta from '../images/Instagram.png'
 import linkedIn from '../images/linkedin.png'
 import ContactUs from '../components/ContactUs';
-import { Link, useNavigate } from 'react-router-dom';
-
-
+import { Link } from 'react-router-dom';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
+
+
+
+
+
+function Popup({ header, description, onClose }) {
+  return (
+    <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-500 bg-opacity-50">
+      <div className="bg-white rounded p-8">
+        <h2 className="text-xl font-semibold mb-4">{header}</h2>
+        <p>{description}</p>
+        <button
+          className="mt-4 px-4 py-2 font-semibold rounded bg-purple text-white"
+          onClick={onClose}
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  );
+}
+
+
 function Home() {
 
-  const navigate = useNavigate;
-  const readMore = navigate('/readMore')
+
+
+  const [showPopup, setShowPopup] = useState(false);
+  const [popupContent, setPopupContent] = useState({ header: '', description: '' });
+
+  const handleLinkClick = (header, description) => {
+    setPopupContent({ header, description });
+    setShowPopup(true);
+  };
+
+  const closePopup = () => {
+    setShowPopup(false);
+  };
+
+  const readMore = '/readMore';
 
   const animationOptions = {
     loop: true,
@@ -32,19 +67,17 @@ function Home() {
     },
   };
 
-
   useEffect(() => {
     AOS.init({
-      duration: 2000, // Animation duration
-      offset: 200, // Distance from the element when triggering the animation (in pixels)
+      duration: 2000,
+      offset: 200,
     });
-    AOS.refresh(); // Refresh the animations
+    AOS.refresh();
   }, []);
 
 
   return (
     <>
-
       <section className="
       text-gray-800 w-full flex dark:bg-hero-bg
         items-center justify-center"
@@ -72,15 +105,15 @@ function Home() {
             </h1>
             <p className="mt-6 mb-8 text-lg sm:mb-12 text-purple-body">
               currently works as a Project Manager and has 2+ years of full-time experience working on city-wide
-              initiatives that promote the wellbeing of New Yorkers
-              <span className='text-blue-500'>
-                <Link to={readMore}>...Read More </Link>
+              initiatives that promote the wellbeing of New Yorkers{' '}
+              <span className="text-blue-500">
+                <Link to={readMore}>...Read Moreee</Link>
               </span>
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center
                             sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start"
             >
-              <a rel="noopener noreferrer" href="#"
+              <a rel="get in touch" href="#"
                 className="px-8 py-3 text-lg font-semibold rounded
                 dark:bg-purple dark:text-white
                 transform hover:scale-110 transition-transform duration-300"
@@ -149,39 +182,70 @@ function Home() {
               </p>
 
               <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                <a rel="noopener noreferrer" href="#"
-                  className="px-4 py-2 font-semibold rounded
-                  dark:bg-purple dark:text-white
-                  transform hover:scale-110 transition-transform duration-300"
-                >
-                  Education
-                </a>
+        <a
+          rel="noopener noreferrer"
+          href="#"
+          className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform hover:scale-110 transition-transform duration-300"
+          onClick={() =>
+            handleLinkClick(
+              'Education',
+              'Popup description for Education'
+            )
+          }
+        >
+          Education
+        </a>
 
-                <a rel="noopener noreferrer" href="#"
-                  className="px-4 py-2 font-semibold rounded
-                  dark:bg-purple dark:text-white
-                  transform hover:scale-110 transition-transform duration-300"
-                >
-                  Project
-                </a>
+        <a
+          rel="noopener noreferrer"
+          href="#"
+          className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform hover:scale-110 transition-transform duration-300"
+          onClick={() =>
+            handleLinkClick(
+              'Project',
+              'Popup description for Project'
+            )
+          }
+        >
+          Project
+        </a>
 
-                <a rel="noopener noreferrer" href="#"
-                  className="px-4 py-2 font-semibold rounded
-                  dark:bg-purple dark:text-white
-                  transform hover:scale-110 transition-transform duration-300"
-                >
-                  Coordinator
-                </a>
+        <a
+          rel="noopener noreferrer"
+          href="#"
+          className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform hover:scale-110 transition-transform duration-300"
+          onClick={() =>
+            handleLinkClick(
+              'Coordinator',
+              'Popup description for Coordinator'
+            )
+          }
+        >
+          Coordinator
+        </a>
 
-                <a rel="noopener noreferrer" href="#"
-                  className="px-4 py-2 font-semibold rounded
-                  dark:bg-purple dark:text-white
-                  transform hover:scale-110 transition-transform duration-300"
-                >
-                  Researcher
-                </a>
+        <a
+          rel="noopener noreferrer"
+          href="#"
+          className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform hover:scale-110 transition-transform duration-300"
+          onClick={() =>
+            handleLinkClick(
+              'Researcher',
+              'Popup description for Researcher'
+            )
+          }
+        >
+          Researcher
+        </a>
+      </div>
 
-              </div>
+      {showPopup && (
+        <Popup
+          header={popupContent.header}
+          description={popupContent.description}
+          onClose={closePopup}
+        />
+      )}
             </div>
             <div class="w-full sm:w-1/2 p-6 sm:order-first">
               <img class="w-full rounded"

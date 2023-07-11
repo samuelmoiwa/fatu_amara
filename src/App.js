@@ -8,12 +8,11 @@ function App() {
   return (
     <>
       <NavBar />
-      <Routes>
-        <Route>
+
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/readMore" element={<HealthReadMore />} />
-        </Route>
-      </Routes>
+        </Routes>
       <Footer />
     </>
   );

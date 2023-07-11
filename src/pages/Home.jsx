@@ -200,8 +200,8 @@ function Home() {
                   className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform hover:scale-110 transition-transform duration-300"
                   onClick={() =>
                     handleLinkClick(
-                      "Education",
-                      "Popup description for Education"
+                      "The City University of New York, College of Staten Island (2016 – 2020)",
+                      "Bachelor of Science in Chemistry, Minors – Psychology & Political Science Cum Laude, Honors in Chemistry"
                     )
                   }
                 >
@@ -213,7 +213,12 @@ function Home() {
                   href="#"
                   className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform hover:scale-110 transition-transform duration-300"
                   onClick={() =>
-                    handleLinkClick("Project", "Popup description for Project")
+                    handleLinkClick("New York City Economic Development Cooperation, New York (2022)",
+                    <p> Provide project management on planning and implementation of the NYCEDC Childcare Innovation lab activities
+                      <br />
+                      Plan and coordinate events for the Childcare Innovation Lab industry round tables, government, and corporate dialogues.
+                    </p>
+                    )
                   }
                 >
                   Project
@@ -225,8 +230,22 @@ function Home() {
                   className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform hover:scale-110 transition-transform duration-300"
                   onClick={() =>
                     handleLinkClick(
-                      "Coordinator",
-                      "Popup description for Coordinator"
+                      "Administration for Children’s Services, New York (2021-2022)",
+                      <p>
+                          Worked on an equity pilot for children in the NYC Foster Care system. Scaled the project to other Foster Care Agencies.
+                          <br />
+                          Communicated with all stakeholders and coordinated meetings for internal and external stakeholders.
+                          <br />
+                          <br />
+                          <span className="font-bold">Community Health Action of Staten Island, New York (2020-2021)</span>
+                          <br/>
+                          <br/>
+                          Recruited, trained, and supervised 80 new pre-health volunteers to support staff at the CHASI programs.
+                          <br/>
+                          Developed all volunteer policies and materials. Forged new partnerships to strengthen the CHASI volunteer network.
+                          <br/>
+                          Led a Public Health Field Research to identify DSP (Distant Support Program) families vulnerable for malaria.
+                      </p>
                     )
                   }
                 >
@@ -239,8 +258,32 @@ function Home() {
                   className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform hover:scale-110 transition-transform duration-300"
                   onClick={() =>
                     handleLinkClick(
-                      "Researcher",
-                      "Popup description for Researcher"
+                      "Los Angeles County Department of Public Health, Carlifornia (2021)",
+                      <p>
+                        Attended and scribed weekly focus group meetings between the department, health professionals, and frontline workers.
+                        <br/>
+                        Curated and managed the health department’s digital library for COVID-19 vaccine equity information.
+                        <br/>
+                        <br/>
+                        <span className="font-bold">Public Health and Early Childhood Development Fellow, AVSI Foundation, Rwanda (2019)</span>
+                        <br/>
+                        <br/>
+                        Supported with research to secure a grant to address mental health prevention in rural Rwanda.
+                        <br/>
+                        Created health education materials and worked closely with staff to translate and distribute materials to AVSI centers.
+                        <br/>
+                        <br/>
+                        <span className="font-bold">University of Oxford, United Kingdom (2020-2021)</span>
+                        <br/>
+                        <br/>
+                        Worked a research project aiming to strengthen research capacity in health crises and pandemics.
+                        <br/>
+                        Conducted literature reviews, research analysis, and scientific journal publication for the British Medical Journal.
+                        <br/>
+                        Co-developed a global health workshop with health professionals across seven countries and co-authored a
+                        publication based on findings about mass deaths in crises like SARS, Ebola, and COVID-19.
+
+                      </p>
                     )
                   }
                 >

@@ -383,7 +383,10 @@ function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col justify-center items-center w-full py-6 sm:px-2 bg-gray-100">
+      <section className="flex flex-col justify-center
+      items-center w-full py-6 sm:px-2 bg-gray-100"
+      id="contact"
+      >
         <ContactUs />
       </section>
 

@@ -129,7 +129,7 @@ function Home() {
             >
               <a
                 rel="get in touch"
-                href="#"
+                href="mailto:amarafatue@gmail.com"
                 className="px-8 py-3 text-lg font-semibold rounded
                 dark:bg-purple dark:text-white
                 transform hover:scale-110 transition-transform duration-300"

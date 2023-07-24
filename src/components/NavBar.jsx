@@ -72,13 +72,13 @@ function NavBar() {
                 let aosAnimation = ""; // Default empty animation
 
                  // Apply different animations based on item position
-                if (index === 1 || index === 2) {
+                if (index === 1 || index === 2 || index === 3) {
                   aosAnimation = "zoom-in"; // Apply 'zoom-in' animation to second and third items
                 }
                 if (index === 0){
                   aosAnimation = "fade-right"; // Apply 'fade-right' animation to items on the left
                 }
-                if (index === 3){
+                if (index === 4){
                   aosAnimation = "fade-left"; // Apply 'fade-left' animation to items on the right
                 }
 
@@ -91,7 +91,7 @@ function NavBar() {
                     activeClassName="bg-gray-100"
                     onClick={toggleMenu}
                     data-aos={aosAnimation}
-                    data-aos-delay={`${index * 300}`} // Optional: Delay the animation for each item
+                    data-aos-delay={`${index * 400}`} // Optional: Delay the animation for each item
                   >
                     {item.name}
                   </NavLink>

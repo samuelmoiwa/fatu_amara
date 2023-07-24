@@ -27,7 +27,7 @@ const HealthReadMore = () => {
           >
             <div class="w-full sm:w-1/2 p-6">
               <p class="text-gray-600 mb-8 text-justify">
-                  Fatu Amara currently works as a Project Manager and has 2+ years
+                  Fatu Amara is a Project Manager and has 2+ years
                   of full-time experience working on city-wide initiatives that promote
                   the wellbeing of New Yorkers. She has experience in management, coordination,
                   qualitative and quantitative data analysis.

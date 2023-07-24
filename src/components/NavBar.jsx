@@ -8,7 +8,7 @@ import AOS from '../components/aosConfig';
 const navigation = [
   { name: "HOME", href: "/?section=home", current: true },
   { name: "ABOUT", href: "/?section=about", current: false },
-  { name: "PUBLICATIONS", href: "/#", current: false },
+  { name: "PUBLICATIONS", href: "/publications", current: false },
   { name: "SERVICES", href: "/?section=services", current: false },
   { name: "CONTACT US", href: "/?section=contact", current: false },
 ];

@@ -230,7 +230,7 @@ function Home() {
                   className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform
                   hover:scale-110 transition-transform duration-300 cursor-pointer"
                   onClick={() =>
-                    handleLinkClick("New York City Economic Development Cooperation, New York (2022)",
+                    handleLinkClick("New York City Economic Development Cooperation, New York (2022-2023)",
                     <p> &bull; Provide project management on planning and implementation of the NYCEDC Childcare Innovation lab activities
                       <br />
                       &bull; Plan and coordinate events for the Childcare Innovation Lab industry round tables, government, and corporate dialogues.
@@ -357,7 +357,7 @@ function Home() {
               >
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="https://instagram.com/fatuamara_?igshid=MzNlNGNkZWQ4Mg=="
                   className="px-4 py-2 flex justify-center
                   transform hover:scale-110 transition-transform duration-300"
                 >
@@ -366,7 +366,7 @@ function Home() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="http://www.linkedin.com/in/"
                   className="px-4 py-2 flex justify-center
                   transform hover:scale-110 transition-transform duration-300"
                 >

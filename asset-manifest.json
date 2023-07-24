@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/fatu_amara/static/css/main.748ca2a9.css",
-    "main.js": "/fatu_amara/static/js/main.9af1943a.js",
+    "main.css": "/fatu_amara/static/css/main.def8aa4d.css",
+    "main.js": "/fatu_amara/static/js/main.4e97e9b4.js",
     "static/media/fatu.png": "/fatu_amara/static/media/fatu.e99be8e0522b17a83ccd.png",
     "static/media/fatu_about_me.png": "/fatu_amara/static/media/fatu_about_me.d463955d0ed3c47abbb6.png",
-    "static/media/logo.png": "/fatu_amara/static/media/logo.a27092fa14f04ec1c189.png",
+    "static/media/free_city.PNG": "/fatu_amara/static/media/free_city.a7aa2dda932824cfe97f.PNG",
+    "static/media/mayor_africa.PNG": "/fatu_amara/static/media/mayor_africa.2a4fa1287cb2a436735c.PNG",
+    "static/media/womwn_transport.PNG": "/fatu_amara/static/media/womwn_transport.5557e0a112945e099451.PNG",
+    "static/media/logo.png": "/fatu_amara/static/media/logo.671069895db8818d9509.png",
+    "static/media/ebola.jpg": "/fatu_amara/static/media/ebola.ec6636fead4801c99cbd.jpg",
     "static/media/volunteer.png": "/fatu_amara/static/media/volunteer.2e8747255be0b0b5c8b1.png",
     "static/media/medal.png": "/fatu_amara/static/media/medal.56dfbb6ce887a3c1d64a.png",
     "static/media/Instagram.png": "/fatu_amara/static/media/Instagram.96290b27488be5652178.png",
     "static/media/linkedin.png": "/fatu_amara/static/media/linkedin.6b60834cf311a93cd8a3.png",
     "index.html": "/fatu_amara/index.html",
-    "main.748ca2a9.css.map": "/fatu_amara/static/css/main.748ca2a9.css.map",
-    "main.9af1943a.js.map": "/fatu_amara/static/js/main.9af1943a.js.map"
+    "main.def8aa4d.css.map": "/fatu_amara/static/css/main.def8aa4d.css.map",
+    "main.4e97e9b4.js.map": "/fatu_amara/static/js/main.4e97e9b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.748ca2a9.css",
-    "static/js/main.9af1943a.js"
+    "static/css/main.def8aa4d.css",
+    "static/js/main.4e97e9b4.js"
   ]
 }

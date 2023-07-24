@@ -13,7 +13,7 @@ const cardData = [
   {
     id: 2,
     icon: medalIcon,
-    heading: `Corporation for National Service AmeriCorps`,
+    heading: `Americorps`,
     description: `Completed 1700 hours of community service to address public health at the height of COVID-19 pandemic.`,
   },
   {

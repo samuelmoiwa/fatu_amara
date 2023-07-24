@@ -21,6 +21,7 @@ function Popup({ header, description, onClose }) {
   return (
     <div
       className="top-0 left-0 w-full h-full flex items-center justify-center bg-gray-500 bg-opacity-50"
+      id="popup"
       style={{ zIndex: 9999, position: "fixed", }}
     >
       <div className="bg-white rounded p-8">
@@ -213,6 +214,7 @@ function Home() {
               <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                 <a
                   rel="noopener noreferrer"
+                
                   className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white
                   transform hover:scale-110 transition-transform duration-300 cursor-pointer"
                   onClick={() =>

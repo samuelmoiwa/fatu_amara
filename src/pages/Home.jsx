@@ -231,9 +231,9 @@ function Home() {
                   hover:scale-110 transition-transform duration-300 cursor-pointer"
                   onClick={() =>
                     handleLinkClick("New York City Economic Development Cooperation, New York (2022)",
-                    <p> Provide project management on planning and implementation of the NYCEDC Childcare Innovation lab activities
+                    <p> &bull; Provide project management on planning and implementation of the NYCEDC Childcare Innovation lab activities
                       <br />
-                      Plan and coordinate events for the Childcare Innovation Lab industry round tables, government, and corporate dialogues.
+                      &bull; Plan and coordinate events for the Childcare Innovation Lab industry round tables, government, and corporate dialogues.
                     </p>
                     )
                   }
@@ -249,19 +249,19 @@ function Home() {
                     handleLinkClick(
                       "Administration for Children’s Services, New York (2021-2022)",
                       <p>
-                          Worked on an equity pilot for children in the NYC Foster Care system. Scaled the project to other Foster Care Agencies.
+                          &bull; Worked on an equity pilot for children in the NYC Foster Care system. Scaled the project to other Foster Care Agencies.
                           <br />
-                          Communicated with all stakeholders and coordinated meetings for internal and external stakeholders.
+                          &bull; Communicated with all stakeholders and coordinated meetings for internal and external stakeholders.
                           <br />
                           <br />
                           <span className="font-bold">Community Health Action of Staten Island, New York (2020-2021)</span>
                           <br/>
                           <br/>
-                          Recruited, trained, and supervised 80 new pre-health volunteers to support staff at the CHASI programs.
+                          &bull; Recruited, trained, and supervised 80 new pre-health volunteers to support staff at the CHASI programs.
                           <br/>
-                          Developed all volunteer policies and materials. Forged new partnerships to strengthen the CHASI volunteer network.
+                          &bull; Developed all volunteer policies and materials. Forged new partnerships to strengthen the CHASI volunteer network.
                           <br/>
-                          Led a Public Health Field Research to identify DSP (Distant Support Program) families vulnerable for malaria.
+                          &bull; Led a Public Health Field Research to identify DSP (Distant Support Program) families vulnerable for malaria.
                       </p>
                     )
                   }
@@ -277,29 +277,28 @@ function Home() {
                     handleLinkClick(
                       "Los Angeles County Department of Public Health, Carlifornia (2021)",
                       <p>
-                        Attended and scribed weekly focus group meetings between the department, health professionals, and frontline workers.
+                        &bull; Attended and scribed weekly focus group meetings between the department, health professionals, and frontline workers.
                         <br/>
-                        Curated and managed the health department’s digital library for COVID-19 vaccine equity information.
+                        &bull; Curated and managed the health department’s digital library for COVID-19 vaccine equity information.
                         <br/>
                         <br/>
                         <span className="font-bold">Public Health and Early Childhood Development Fellow, AVSI Foundation, Rwanda (2019)</span>
                         <br/>
                         <br/>
-                        Supported with research to secure a grant to address mental health prevention in rural Rwanda.
+                        &bull; Supported with research to secure a grant to address mental health prevention in rural Rwanda.
                         <br/>
-                        Created health education materials and worked closely with staff to translate and distribute materials to AVSI centers.
+                        &bull; Created health education materials and worked closely with staff to translate and distribute materials to AVSI centers.
                         <br/>
                         <br/>
                         <span className="font-bold">University of Oxford, United Kingdom (2020-2021)</span>
                         <br/>
                         <br/>
-                        Worked a research project aiming to strengthen research capacity in health crises and pandemics.
+                        &bull; Worked a research project aiming to strengthen research capacity in health crises and pandemics.
                         <br/>
-                        Conducted literature reviews, research analysis, and scientific journal publication for the British Medical Journal.
+                        &bull; Conducted literature reviews, research analysis, and scientific journal publication for the British Medical Journal.
                         <br/>
-                        Co-developed a global health workshop with health professionals across seven countries and co-authored a
+                        &bull; Co-developed a global health workshop with health professionals across seven countries and co-authored a
                         publication based on findings about mass deaths in crises like SARS, Ebola, and COVID-19.
-
                       </p>
                     )
                   }

@@ -325,10 +325,10 @@ function Home() {
       </section>
 
       <section className="
-      flex flex-col sm:justify-center justify-center
+        flex flex-col sm:justify-center justify-center
         sm:items-center items-center
-        w-full py-6 sm:px-2 bg-gray-100"
-      >
+        w-full py-6 sm:px-2 bg-gray-100
+      ">
         <h2
           className="text-2xl text-center font-bold leading-none sm:text-3xl
           text-purple-header my-6"

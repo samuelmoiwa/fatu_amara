@@ -214,7 +214,7 @@ function Home() {
               <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                 <a
                   rel="noopener noreferrer"
-                
+
                   className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white
                   transform hover:scale-110 transition-transform duration-300 cursor-pointer"
                   onClick={() =>
@@ -353,7 +353,7 @@ function Home() {
               </div>
 
               <div
-                className="flex space-y-4 sm:items-center
+                className="flex space-y-0 sm:items-center
                 sm:flex-row sm:space-y-0
                 sm:space-x-4 lg:justify-start md:items-center"
               >

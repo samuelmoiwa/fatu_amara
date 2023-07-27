@@ -324,8 +324,9 @@ function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col sm:justify-center justify-center
-                            sm:items-center items-center
+      <section className="
+      flex flex-col sm:justify-center justify-center
+        sm:items-center items-center
                           w-full py-6 sm:px-2 bg-gray-100"
       >
         <h2

@@ -303,7 +303,8 @@ function Home() {
                         <br/>
                         &bull; Worked a research project aiming to strengthen research capacity in health crises and pandemics.
                         <br/>
-                        &bull; Conducted literature reviews, research analysis, and scientific journal publication for the British Medical Journal.
+                        &bull; Conducted literature reviews, research analysis, and scientific journal publication for
+                          the British Medical Journal.
                         <br/>
                         &bull; Co-developed a global health workshop with health professionals across seven countries and co-authored a
                         publication based on findings about mass deaths in crises like SARS, Ebola, and COVID-19.

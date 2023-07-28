@@ -294,7 +294,8 @@ function Home() {
                         <br/>
                         &bull; Supported with research to secure a grant to address mental health prevention in rural Rwanda.
                         <br/>
-                        &bull; Created health education materials and worked closely with staff to translate and distribute materials to AVSI centers.
+                        &bull; Created health education materials and worked closely with staff to translate
+                              and distribute materials to AVSI centers.
                         <br/>
                         <br/>
                         <span className="font-bold">University of Oxford, United Kingdom (2020-2021)</span>

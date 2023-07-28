@@ -282,7 +282,8 @@ function Home() {
                         &bull; Attended and scribed weekly focus group meetings between the department, health
                               professionals, and frontline workers.
                         <br/>
-                        &bull; Curated and managed the health department’s digital library for COVID-19 vaccine equity information.
+                        &bull; Curated and managed the health department’s digital library for COVID-19
+                              vaccine equity information.
                         <br/>
                         <br/>
                         <span className="font-bold">Public Health and Early Childhood Development Fellow, AVSI Foundation, Rwanda (2019)</span>

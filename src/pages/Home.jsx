@@ -286,7 +286,10 @@ function Home() {
                               vaccine equity information.
                         <br/>
                         <br/>
-                        <span className="font-bold">Public Health and Early Childhood Development Fellow, AVSI Foundation, Rwanda (2019)</span>
+                        <span className="font-bold">
+                          Public Health and Early Childhood Development Fellow,
+                          AVSI Foundation, Rwanda (2019)
+                        </span>
                         <br/>
                         <br/>
                         &bull; Supported with research to secure a grant to address mental health prevention in rural Rwanda.

@@ -279,7 +279,8 @@ function Home() {
                     handleLinkClick(
                       "Los Angeles County Department of Public Health, Carlifornia (2021)",
                       <p>
-                        &bull; Attended and scribed weekly focus group meetings between the department, health professionals, and frontline workers.
+                        &bull; Attended and scribed weekly focus group meetings between the department, health
+                              professionals, and frontline workers.
                         <br/>
                         &bull; Curated and managed the health department’s digital library for COVID-19 vaccine equity information.
                         <br/>

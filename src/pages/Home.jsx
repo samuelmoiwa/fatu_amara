@@ -302,7 +302,8 @@ function Home() {
                         <span className="font-bold">University of Oxford, United Kingdom (2020-2021)</span>
                         <br/>
                         <br/>
-                        &bull; Worked a research project aiming to strengthen research capacity in health crises and pandemics.
+                        &bull; Worked a research project aiming to strengthen research capacity in
+                              health crises and pandemics.
                         <br/>
                         &bull; Conducted literature reviews, research analysis, and scientific journal publication for
                           the British Medical Journal.

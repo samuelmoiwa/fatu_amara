@@ -292,7 +292,8 @@ function Home() {
                         </span>
                         <br/>
                         <br/>
-                        &bull; Supported with research to secure a grant to address mental health prevention in rural Rwanda.
+                        &bull; Supported with research to secure a grant to address mental
+                              health prevention in rural Rwanda.
                         <br/>
                         &bull; Created health education materials and worked closely with staff to translate
                               and distribute materials to AVSI centers.

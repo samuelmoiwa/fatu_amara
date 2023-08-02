@@ -273,7 +273,8 @@ function Home() {
 
                 <a
                   rel="noopener noreferrer"
-                  className="px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform
+                  className="
+                  px-4 py-2 font-semibold rounded dark:bg-purple dark:text-white transform
                   hover:scale-110 transition-transform duration-300 cursor-pointer"
                   onClick={() =>
                     handleLinkClick(

@@ -56,7 +56,6 @@ function Home() {
 
   // const about = '/?section=about';
 
-
   const [showPopup, setShowPopup] = useState(false);
   const [popupContent, setPopupContent] = useState({
     header: "",

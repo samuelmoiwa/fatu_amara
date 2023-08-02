@@ -48,6 +48,7 @@ const Publications = () => {
 
   return (
     <>
+        {/* Publications Section */}
       <section className="container mx-auto px-4 py-8 mt-14">
         <header className="bg-white shadow">
           <div className="container mx-auto px-4 py-6">

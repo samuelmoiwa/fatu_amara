@@ -22,7 +22,6 @@ const cardData = [
     heading: `Jeannette K. Watson Fellow Fellowship`,
     description: `1 of 15 awarded a highly selective fellowship that funds internships in NYC and abroad.`,
   },
-  // Add more card data as needed
 ];
 
 const Card = ({ icon, heading, description }) => {

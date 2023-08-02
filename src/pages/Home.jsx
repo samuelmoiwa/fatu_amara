@@ -121,7 +121,7 @@ function Home() {
               experience working on city-wide initiatives that promote the
               wellbeing of New Yorkers{" "}
               <span className="text-blue-500">
-                <Link to={readMore}>...Read Moreee</Link>
+                <Link to={readMore}>...Read More</Link>
               </span>
             </p>
             <div

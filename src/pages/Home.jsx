@@ -40,6 +40,7 @@ function Popup({ header, description, onClose }) {
 
 
 function Home() {
+
   const location = useLocation();
   useEffect(() => {
     const searchParams = new URLSearchParams(location.search);

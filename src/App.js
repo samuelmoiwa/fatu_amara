@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar.jsx';
 import Home from './pages/Home.jsx';
-import HealthReadMore from './components/HealthReadMore.jsx';
+import HealthReadMore from './components/HealthReadmore.jsx'
 import Footer from './components/Footer.jsx';
 import Publications from './components/Publications.jsx';
 

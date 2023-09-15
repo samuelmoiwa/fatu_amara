@@ -15,7 +15,7 @@ function Footer() {
             {/* <p className="text-gray-600 mt-2">
               Address: 123 Street, usa, United State
             </p> */}
-            <p className="text-gray-600 mt-1">Phone: +1 00 000 000</p>
+            {/* <p className="text-gray-600 mt-1">Phone: +1 00 000 000</p> */}
             <p className="text-gray-600 mt-1">Email: amarafatue@gmail.com</p>
           </div>
           <div className="mt-4 md:mt-0">

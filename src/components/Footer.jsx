@@ -21,7 +21,7 @@ function Footer() {
           <div className="mt-4 md:mt-0">
             <h4 className="text-gray-800 uppercase font-semibold">Social Media</h4>
             <div className="flex mt-2">
-              <a
+              {/* <a
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -36,7 +36,7 @@ function Footer() {
                 className="text-gray-600 hover:text-gray-800 mr-3"
               >
                 Twitter
-              </a>
+              </a> */}
               <a
                 href="#"
                 target="_blank"
